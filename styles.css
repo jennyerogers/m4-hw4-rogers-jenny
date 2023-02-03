@@ -1,0 +1,44 @@
+body {background-color: rgb(238, 238, 227);
+color: black;
+max-width: 900px;
+margin:auto
+}
+header {
+    margin: 35px 0;
+    font size: 20px;
+}
+section.jumbotron {
+    text-align: center;
+    background-image: url(/images/Screen\ Shot\ 2023-02-03\ at\ 3.22.17\ PM.png)
+}
+section.hello {
+    text-align: center;
+}
+
+a {
+    color: rgb(9, 75, 20);
+}
+h1, h2{ text-align: center;}
+h1{color: rgb(147, 20, 107);
+font size: 100px;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h2{color: rgb(9, 75, 20);}
+aside nav a {
+    display:block;
+    text-align: center;
+}
+footer{
+    margin: 50px 0;
+    text-align: center;
+}
+p.next {
+    font-style: italic;
+}
+h2 ~ p {
+    color: rgb(0, 0, 65);
+}
